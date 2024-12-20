@@ -44,7 +44,7 @@ The Installation of universal_robot using the method below was missing the `ur_k
   Unfortunately the node is not functional yet
 
 - Task 3:
-  User API to get Robot State from `/joint_states` topic: `python3 use_api.py` 
+  User API to get Robot State from `/joint_states` topic: `python3 use_api.py`   
   No API for task 2 because the task was not completed successfully.
 
 - Task 4:
