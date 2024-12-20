@@ -1,6 +1,5 @@
 # Project Structure
 
-```
 catkin_ws
 ├── src/
 │ ├── CMakeLists.txt
@@ -20,14 +19,17 @@ catkin_ws
 │ │
 │ ├── universal_robot/
 │ ├── ros_control/
-```
+
 
 # Dependencies
-I installed universal_robot and ros_control from source.
-	https://github.com/ros-industrial/universal_robot
-	https://github.com/ros-controls/ros_control
+I installed universal_robot and ros_control from source
+	
+- https://github.com/ros-industrial/universal_robot
+- https://github.com/ros-controls/ros_control
 
-	Installation of universal_robot installation with "sudo apt-get install ros-$ROS_DISTRO-universal-robots" was missing the ur_kinematics folder I used for the Inverse Kinematics Solver task.
+Installation of universal_robot with method below was missing the ur_kinematics folder I used for the Inverse Kinematics Solver task.
+`sudo apt-get install ros-$ROS_DISTRO-universal-robots` 
+
 
 # My Solution
 	
