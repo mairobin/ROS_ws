@@ -34,19 +34,19 @@ The Installation of universal_robot using the method below was missing the `ur_k
 
 ## My Solution
 
-- Task 1:
-  Python script: `sine_wave_joint_publisher.py`
-  To bring the UR5 robot to live:  `roslaunch serve_humanity sine_wave.launch`
+- Task 1:  
+  Python script: `sine_wave_joint_publisher.py`  
+  To bring the UR5 robot to live:  `roslaunch serve_humanity sine_wave.launch`  
   
-- Task 2:
-  C++ code: `ur5_kinematics_node.cpp`
-  Launch: `roslaunch serve_humanity ur5_kinematics_node.launch`
-  Unfortunately the node is not functional yet
+- Task 2:  
+  C++ code: `ur5_kinematics_node.cpp`  
+  Launch: `roslaunch serve_humanity ur5_kinematics_node.launch`  
+  Unfortunately the node is not functional yet  
 
-- Task 3:
+- Task 3:  
   User API to get Robot State from `/joint_states` topic: `python3 use_api.py`   
-  No API for task 2 because the task was not completed successfully.
+  No API for task 2 because the task was not completed successfully.  
 
-- Task 4:
-  Unable to finish the task in the time frame. 
+- Task 4:  
+  Unable to finish the task in the time frame.   
 
