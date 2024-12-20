@@ -1,0 +1,15 @@
+<launch>
+    <!-- Include the UR Gazebo bringup launch file -->
+    <include file="$(find ur_gazebo)/launch/ur5_bringup.launch">
+        <arg name="gui" value="true" />
+        <arg name="paused" value="false" />
+    </include>
+
+    <node pkg="serve_humanity" 
+          type="ur5_kinematics_node" 
+          name="ur5_kinematics_node" 
+          output="screen">
+    </node>
+
+</launch>
+

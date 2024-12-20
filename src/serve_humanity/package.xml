@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>serve_humanity</name>
+  <version>0.0.0</version>
+  <description>My Assignment</description>
+
+  <maintainer email="robinmosesmai@gmail.com">robin</maintainer>
+
+  <license>TODO</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- General dependencies (both build and exec) -->
+  <depend>roscpp</depend>
+  <depend>ur_kinematics</depend>
+  <depend>ur_gazebo</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+</package>

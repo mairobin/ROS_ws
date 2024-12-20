@@ -1,0 +1,9 @@
+build/
+devel/
+log/
+install/
+*.pyc
+.catkin_tools/
+.DS_Store
+src/ros_control/
+src/universal_robot/
