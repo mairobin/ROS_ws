@@ -1,5 +1,6 @@
 # Project Structure
 
+```
 catkin_ws
 ├── src/
 │ ├── CMakeLists.txt
@@ -19,7 +20,7 @@ catkin_ws
 │ │
 │ ├── universal_robot/
 │ ├── ros_control/
-
+```
 
 # Dependencies
 I installed universal_robot and ros_control from source.
