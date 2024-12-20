@@ -28,7 +28,7 @@ I installed universal_robot and ros_control from source
 - https://github.com/ros-industrial/universal_robot
 - https://github.com/ros-controls/ros_control
 
-Installation of universal_robot with method below was missing the `ur_kinematics` folder I used for the Inverse Kinematics Solver task.
+The Installation of universal_robot using the method below was missing the `ur_kinematics` folder, which I used for the Inverse Kinematics Solver task.
 
 `sudo apt-get install ros-$ROS_DISTRO-universal-robots` 
 
